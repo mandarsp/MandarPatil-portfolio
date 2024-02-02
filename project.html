@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<style>
+    body {
+        background-image: url('project.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .project-card {
+            background-color: rgba(47, 40, 40, 0.612);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+            background-color: transparent;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: transparent;
+        }
+
+        .navbar-nav .nav-link:active {
+            background-color: #333;
+        }
+
+    </style>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <header class="header_wrapper">
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experience.html">Experince</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container mt-5">
+            <h2 class="text-start fs-1 fw-bolder-2 text-warning mx-4">Projects</h2>
+        </div>
+        <section id="projects">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="text-warning">Projects</h2>
+                  <div class="card project-card ">
+                    <div class="card-body">
+                      <h5 class="card-title text-warning">Electricity Billing System</h5>
+                      <h6 class="card-subtitle text-light">Java, Mysql</h6>
+                      <p class="card-text text-warning">
+                        •Information of consuming unit energy of current month, Customer, Consuming unit energy of previous
+                        month, Calculate the units consumed every month regularly, Generate the bill adding penalty and rent,
+                        Payment process.
+                        </p>
+                    </div>
+                  </div>
+                  <div class="card project-card  my-3">
+                    <div class="card-body">
+                      <h5 class="card-title text-warning">Amazon Clone</h5>
+                      <h6 class="card-subtitle text-light">Html, Css</h6>
+                      <p class="card-text text-warning">
+                          •The Amazon Clone Front Web Page project is a web development endeavor aimed at replicating the user
+                           interface and design of the renowned Amazon website.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
